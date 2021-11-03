@@ -21,22 +21,28 @@ body {
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  background: rgba(221, 177, 238, 0.87);
 }
 
 h1, h2 {
   font-family: 'Gabriela', serif;
-  color: #fff;
+  color: rgb(121, 46, 121);
 }
 
 h1 {
   font-size: 3.5em;
   margin-bottom: 0;
+  font-style: oblique;
+  text-decoration: pink wavy underline;
+  background-color: powderblue;
 }
 
 h2 {
   font-size: 1.5em;
   margin-top: .5em;
+  font-style: oblique;
+  text-decoration: pink wavy underline;
+  background-color: powderblue;
 }
 
 h3 {
@@ -56,12 +62,13 @@ p {
 }
 
 a {
-  color: black;
+  color: rgb(248, 166, 200);
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+  color:rgb(166, 215, 248)
 }
 
 @media only screen and (max-width: 1042px) {
